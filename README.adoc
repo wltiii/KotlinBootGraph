@@ -1,4 +1,4 @@
-= Energy Optimizer
+= Kotlin-SpringBoot-GraphQL-Mongo POC
 Bill Turner
 :toc:
 :toc-placement!:
