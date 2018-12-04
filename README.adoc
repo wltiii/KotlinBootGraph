@@ -54,9 +54,9 @@ mutation {
 == Evaluation
 
 == References
-https://medium.com/@aronbalog/spring-boot-kotlin-graphql-mongo-e73f25df6ab9
-https://litote.org/kmongo/quick-start/
-https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html
+* https://medium.com/@aronbalog/spring-boot-kotlin-graphql-mongo-e73f25df6ab9
+* https://litote.org/kmongo/quick-start/
+* https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html
 
 
 == TODOs
