@@ -1,0 +1,13 @@
+type Query {
+    # The API Version
+    version: String!
+
+    # Get dayAheadMarket with ID
+    dayAheadMarket(id: ID!): DayAheadMarket
+
+    # Get Day Ahead Market Prices by zone
+    pricesByZone(zone: String!): [DayAheadMarket]
+
+    # Get Day Ahead Market Prices by hour ending
+    pricesByHourEnding(hourEnding: Int!): [DayAheadMarket]
+}

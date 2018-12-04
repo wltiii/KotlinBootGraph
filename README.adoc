@@ -1,0 +1,66 @@
+= Energy Optimizer
+Bill Turner
+:toc:
+:toc-placement!:
+
+toc::[]
+
+== Overview ==
+This is a spike to help determine the technology stack to use. Initially, this is:
+
+* SpringBoot
+* Kotlin
+* GraphQL
+* MongoDB
+* KMongo
+
+== Getting Started
+. Run `gradle bootRun`
+. Open a browser to http://localhost:8080/graphiql
+. Run some queries. For example:
+
+.Simple 'Version' Query
+[source,bash]
+----
+query {
+  version
+}
+----
+
+.Prices By Zone Query
+[source,bash]
+----
+query {
+  pricesByZone(zone: "HB_HOUSTON") {
+    hourEnding
+    price
+  }
+}
+----
+
+.Price Mutation
+[source,bash]
+----
+mutation {
+  dayAheadMarketCreate(input: {hourEnding: 1, zone: "HB_SOUTH", price: 18.79 }) {
+    id
+    hourEnding
+    zone
+    price
+  }
+}
+----
+
+== Evaluation
+
+== References
+https://medium.com/@aronbalog/spring-boot-kotlin-graphql-mongo-e73f25df6ab9
+https://litote.org/kmongo/quick-start/
+https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html
+
+
+== TODOs
+. Incorporate KMongo
+. Use BigDecimal for prices
+. Eliminate \_class field from insert (injected by Spring?)
+. Change query to make it clear it is retrieving Day Ahead Market (DAM) pricies, i. e. `pricesByZone` should be something like `damPricesByZone`

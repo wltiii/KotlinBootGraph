@@ -1,0 +1,28 @@
+package com.windlogics.pricing.dao
+
+import com.windlogics.pricing.repository.DayAheadMarketRepository
+import org.springframework.stereotype.Component
+import com.windlogics.pricing.data.DayAheadMarket
+
+@Component
+class DayAheadMarketDao(
+    private val dayAheadMarketRepository: DayAheadMarketRepository
+) {
+    fun getDayAheadMarketById(id: String) =
+            dayAheadMarketRepository.findById(id)
+
+    fun getPricesByHourEnding(hourEnding: Int) =
+            dayAheadMarketRepository.getPricesByHourEnding(hourEnding)
+
+    fun getPricesByZone(zone: String) =
+            dayAheadMarketRepository.getPricesByZone(zone)
+
+    fun createDayAheadMarket(hourEnding: Int, zone: String, price: Float) =
+        dayAheadMarketRepository.save(
+			DayAheadMarket(
+		        hourEnding = hourEnding,
+		        zone = zone,
+		        price = price
+		    )
+		)
+}

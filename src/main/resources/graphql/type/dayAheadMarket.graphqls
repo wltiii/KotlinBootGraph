@@ -1,0 +1,6 @@
+type DayAheadMarket {
+    id: ID!
+    hourEnding: Int!
+    zone: String!
+    price: Float
+}

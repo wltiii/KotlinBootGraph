@@ -1,0 +1,5 @@
+input DayAheadMarketInput {
+    hourEnding: Int!
+    zone: String!
+    price: Float!
+}
