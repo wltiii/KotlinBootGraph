@@ -1,4 +1,4 @@
-package com.windlogics.pricing
+package com.changent.pricing
 
 import org.junit.Test
 import org.junit.runner.RunWith

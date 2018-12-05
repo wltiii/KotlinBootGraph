@@ -1,4 +1,4 @@
-package com.windlogics.pricing
+package com.changent.pricing
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

@@ -1,8 +1,8 @@
-package com.windlogics.pricing.graphql.query
+package com.changent.pricing.graphql.query
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver
-import com.windlogics.pricing.dao.DayAheadMarketDao
-import com.windlogics.pricing.data.DayAheadMarket
+import com.changent.pricing.dao.DayAheadMarketDao
+import com.changent.pricing.data.DayAheadMarket
 import org.springframework.stereotype.Component
 
 @Component

@@ -1,4 +1,4 @@
-package com.windlogics.pricing.graphql.input
+package com.changent.pricing.graphql.input
 
 data class DayAheadMarketInput(
     val hourEnding: Int,

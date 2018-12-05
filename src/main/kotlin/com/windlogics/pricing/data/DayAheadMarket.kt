@@ -1,4 +1,4 @@
-package com.windlogics.pricing.data
+package com.changent.pricing.data
 
 import org.springframework.data.mongodb.core.mapping.Document
 import java.util.*
