@@ -21,6 +21,7 @@ gradle-app.setting
 ### Kotlin ###
 # Compiled class file
 *.class
+bin/*
 
 # Log file
 *.log
@@ -64,3 +65,7 @@ hs_err_pid*
 /dist/
 /nbdist/
 /.nb-gradle/
+
+
+### VS CODE HISTORY Plugin ###
+.history
