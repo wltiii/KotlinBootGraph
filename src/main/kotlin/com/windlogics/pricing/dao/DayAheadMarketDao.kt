@@ -1,8 +1,8 @@
-package com.windlogics.pricing.dao
+package com.changent.pricing.dao
 
-import com.windlogics.pricing.repository.DayAheadMarketRepository
+import com.changent.pricing.repository.DayAheadMarketRepository
 import org.springframework.stereotype.Component
-import com.windlogics.pricing.data.DayAheadMarket
+import com.changent.pricing.data.DayAheadMarket
 
 @Component
 class DayAheadMarketDao(

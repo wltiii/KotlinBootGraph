@@ -1,4 +1,4 @@
-package com.windlogics.pricing.graphql
+package com.changent.pricing.graphql
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver
 import org.springframework.stereotype.Component

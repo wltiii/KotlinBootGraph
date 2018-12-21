@@ -66,11 +66,6 @@ hs_err_pid*
 /nbdist/
 /.nb-gradle/
 
-<<<<<<< HEAD
 
 ### VS CODE HISTORY Plugin ###
 .history
-=======
-### vscode history ###
-.history/
->>>>>>> fbb3af5effad2d66620dce4b551ef661df1e1964

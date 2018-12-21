@@ -1,9 +1,9 @@
-package com.windlogics.pricing.graphql
+package com.changent.pricing.graphql
 
 import com.coxautodev.graphql.tools.GraphQLMutationResolver
-import com.windlogics.pricing.dao.DayAheadMarketDao
-import com.windlogics.pricing.data.DayAheadMarket
-import com.windlogics.pricing.graphql.input.DayAheadMarketInput
+import com.changent.pricing.dao.DayAheadMarketDao
+import com.changent.pricing.data.DayAheadMarket
+import com.changent.pricing.graphql.input.DayAheadMarketInput
 import org.springframework.stereotype.Component
 
 @Component

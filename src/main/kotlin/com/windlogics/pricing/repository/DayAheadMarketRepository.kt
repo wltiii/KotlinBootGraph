@@ -1,6 +1,6 @@
-package com.windlogics.pricing.repository
+package com.changent.pricing.repository
 
-import com.windlogics.pricing.data.DayAheadMarket
+import com.changent.pricing.data.DayAheadMarket
 import org.springframework.data.mongodb.repository.MongoRepository
 import org.springframework.stereotype.Repository
 
